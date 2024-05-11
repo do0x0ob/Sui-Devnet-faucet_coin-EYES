@@ -7,13 +7,13 @@ module faucet_eyes::faucet_eyes {
     
     #[allow(lint(share_owned))]
     fun init(witness: FAUCET_EYES, ctx: &mut sui::tx_context::TxContext) {
-        let url_obj = new_unsafe(std::ascii::string(b"https://avatars.githubusercontent.com/u/153002627?v=4"));
+        let url_obj = new_unsafe(std::ascii::string(b"https://github.com/do0x0ob/Sui-Devnet-faucet_coin-EYES/blob/main/faucet_eyes/token_img/eyes.png?raw=true"));
         let (treasury_cap, meta) = coin::create_currency (
             witness,
             8,
-            b"OXO_Faucet",
-            b"OXO",
-            b"FaucetCoin on task2",
+            b"EYES_Faucet",
+            b"EYES",
+            b"a Sui devnet FaucetCoin for 2024 hackerthon testuse",
             option::some(url_obj),
             ctx
         );
