@@ -1,13 +1,27 @@
 # Sui-Devnet-faucet_coin-EYES
 
+***EYES is a faucet token for test only in a `2024 Sui HackerOverflow` project -- `Fren Suipport`***
+
 1. **PackageID:** `0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402`
 2. **TreasuryCap ObjectID:** `0x9e7de5993bba2c679ee0e9f07521810357d945ccca3dcafaad333bcc59d9b662`
 
-## Mint CLI Commands
+## How to Mint
+
+### Option1: Use Sui Onchain Explorer to call mint function
+
+1. go to [MINT](https://suiscan.xyz/devnet/object/0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402/contracts)
+2. input contract args like below:
+  - ![mint](https://github.com/do0x0ob/Sui-Devnet-faucet_coin-EYES/assets/153002627/84e9e052-99bb-47e2-a9a4-20c9f8f9d1cf)
+
+
+### Option2: Use Sui CLI to mint EYES
+
+Mint CLI Commands:
+
 ```bash
 sui client call --package 0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402 --module faucet_eyes --function mint --args 0x9e7de5993bba2c679ee0e9f07521810357d945ccca3dcafaad333bcc59d9b662 110000000000 0x006d980cadd43c778e628201b45cfd3ba6e1047c65f67648a88f635108ffd6eb --gas-budget 1000000000
 ```
-
+---
 
 ## Publish Info
 ```bash
