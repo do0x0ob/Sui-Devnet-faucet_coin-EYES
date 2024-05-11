@@ -19,7 +19,7 @@
 Mint CLI Commands:
 
 ```bash
-sui client call --package 0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402 --module faucet_eyes --function mint --args 0x9e7de5993bba2c679ee0e9f07521810357d945ccca3dcafaad333bcc59d9b662 110000000000 0x006d980cadd43c778e628201b45cfd3ba6e1047c65f67648a88f635108ffd6eb --gas-budget 1000000000
+sui client call --package 0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402 --module faucet_eyes --function mint --args 0x9e7de5993bba2c679ee0e9f07521810357d945ccca3dcafaad333bcc59d9b662 110000000000 <YOUR ADDRESS HERE> --gas-budget 1000000000
 ```
 ---
 
