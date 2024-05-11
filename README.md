@@ -1,7 +1,7 @@
 # Sui-Devnet-faucet_coin-EYES
 
-**PackageID:** `0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402`
-**TreasuryCap ObjectID:** `0x9e7de5993bba2c679ee0e9f07521810357d945ccca3dcafaad333bcc59d9b662`
+1. **PackageID:** `0xcd9711c275c19a1e638da90a2111eac52e44a104236d243f1b86d07f013a4402`
+2. **TreasuryCap ObjectID:** `0x9e7de5993bba2c679ee0e9f07521810357d945ccca3dcafaad333bcc59d9b662`
 
 ## Mint CLI Commands
 ```bash
