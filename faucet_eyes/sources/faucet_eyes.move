@@ -10,7 +10,7 @@ module faucet_eyes::faucet_eyes {
         let url_obj = new_unsafe(std::ascii::string(b"https://github.com/do0x0ob/Sui-Devnet-faucet_coin-EYES/blob/main/faucet_eyes/token_img/eyes.png?raw=true"));
         let (treasury_cap, meta) = coin::create_currency (
             witness,
-            8,
+            9,
             b"EYES_Faucet",
             b"EYES",
             b"a Sui devnet FaucetCoin for 2024 hackerthon testuse",
